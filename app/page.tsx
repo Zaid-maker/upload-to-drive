@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function LandingPage() {
@@ -18,6 +19,13 @@ export default function LandingPage() {
         </div>
         <div className="mx-auto max-w-2xl py-8">
           <div className="text-center">
+            <Image
+              src="/logo.png"
+              width="200"
+              height="200"
+              alt="file drive logo"
+              className="inline-block mb-8"
+            />
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               The easiest way to upload and share files with your company
             </h1>
@@ -36,7 +44,7 @@ export default function LandingPage() {
                 href="#"
                 className="text-sm font-semibold loading-6 text-gray-900"
               >
-                Learn more <span aria-hidden="true"></span>
+                Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
