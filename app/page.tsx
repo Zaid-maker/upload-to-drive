@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function LandingPage() {
   return (
     <div className="bg-white">
-      <div className="relative isollate px-6 pt-14 lg:px-8">
+      <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -42,7 +42,7 @@ export default function LandingPage() {
               </Link>
               <a
                 href="#"
-                className="text-sm font-semibold loading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
